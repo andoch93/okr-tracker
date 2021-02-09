@@ -7,7 +7,7 @@
   "testMatch": ["<rootDir>/tests/components/**/*.[jt]s?(x)", "<rootDir>/?(*.)+(spec|test).[jt]s?(x)"],
   "setupFilesAfterEnv": ["@testing-library/jest-dom", "jest-extended", "@testing-library/react-hooks"],
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx"],
-  "coverageDirectory": "<rootDir>/artifacts/tests/coverage",
+  "coverageDirectory": "<rootDir>/coverage",
   "moduleDirectories": ["node_modules"],
   "moduleNameMapper": {
     "\\.css$": "<rootDir>/tests/mocks/styleMock.js",
@@ -22,7 +22,7 @@
       "statements": -10
     }
   },
-  "coveragePathIgnorePatterns": ["<rootDir>/artifacts/tests/coverage", "<rootDir>/tests/mocks"],
+  "coveragePathIgnorePatterns": ["<rootDir>/coverage", "<rootDir>/tests/mocks"],
   "globals": {
     "test-jest": {
       "diagnostics": false

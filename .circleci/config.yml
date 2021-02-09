@@ -6,9 +6,19 @@ jobs:
       - attach_workspace:
           at: .
       - run:
-          name: "build image"
+          name: "install dependencies"
           command: |
-            docker build -f shared/config/Dockerfile.dev -t ${AWS_RESOURCE_NAME_PREFIX} .
+            npm install
+      - run:
+          name: "check for vulnerabilities"
+          command: |
+            npm run test:coverage
+      - run:
+          name: "run audit"
+          command: |
+            npx audit-ci -h -c 
+      - store_artifacts:
+          path: ./coverage
 
 
 aws_job_template: &aws_job_template
