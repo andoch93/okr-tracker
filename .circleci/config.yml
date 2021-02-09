@@ -3,12 +3,9 @@ jobs:
     machine: true
     steps:
       - checkout
-      - attach_workspace:
-          at: .
-      - run:
-          name: "install dependencies"
-          command: |
-            npm install
+      - node/install:
+          node-version: '14.15.0'
+          install-npm: true
       - run:
           name: "check for vulnerabilities"
           command: |
@@ -45,7 +42,7 @@ service_template: &service_template
 
 
 orbs:
-  node: circleci/node@4.0.1
+  node: circleci/node@4.1.0
   aws-ecr: circleci/aws-ecr@6.15.2
   aws-ecs: circleci/aws-ecs@0.0.10
 version: 2.1
