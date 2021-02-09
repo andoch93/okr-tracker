@@ -45,7 +45,7 @@ service_template: &service_template
 
 
 orbs:
-  node: circleci/node@4.1.0
+  node: circleci/node@4.0.1
   aws-ecr: circleci/aws-ecr@6.15.2
   aws-ecs: circleci/aws-ecs@0.0.10
 version: 2.1
