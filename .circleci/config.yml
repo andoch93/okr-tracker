@@ -6,6 +6,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: 'install npm packages'
+          command: |
+            npm install
+      - run:
           name: 'run test coverage'
           command: |
             npm run test:coverage
