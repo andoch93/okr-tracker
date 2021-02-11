@@ -21,7 +21,7 @@ module.exports = merge(common, {
   plugins: [
     new BundleAnalyzerPlugin({
       analyzerMode: 'static',
-      reportFilename: '../artifacts/bundleAnalyzer.html',
+      reportFilename: '../bundleAnalyzer/bundleAnalyzer.html',
     }),
     new CleanWebpackPlugin(),
     new WebpackManifestPlugin({

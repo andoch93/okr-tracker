@@ -1,22 +1,26 @@
 jobs:
   test:
-    machine: true
+    executor:
+      name: node/default
+      tag: '14.15'
     steps:
       - checkout
-      - node/install:
-          node-version: '14.15.0'
-          install-npm: true
       - run:
-          name: "check for vulnerabilities"
+          name: 'run test coverage'
           command: |
             npm run test:coverage
       - run:
-          name: "run audit"
+          name: 'run audit'
           command: |
-            npx audit-ci -h -c 
+            npx audit-ci -h -c
+      - run:
+          name: 'run build'
+          command: |
+            npm run build
       - store_artifacts:
           path: ./coverage
-
+      - store_artifacts:
+          path: ./bundleAnalyzer
 
 aws_job_template: &aws_job_template
   account-url: AWS_ECR_ACCOUNT_URL
@@ -33,13 +37,11 @@ aws_job_template: &aws_job_template
   attach-workspace: true
   tag: '${CIRCLE_BUILD_NUM}'
 
-
 service_template: &service_template
   family: ${AWS_RESOURCE_NAME_PREFIX}-task
   cluster-name: ${AWS_RESOURCE_NAME_PREFIX}-cluster
   service-name: ${AWS_RESOURCE_NAME_PREFIX}-service
   container-image-name-updates: container=${AWS_RESOURCE_NAME_PREFIX},tag=${CIRCLE_BUILD_NUM}
-
 
 orbs:
   node: circleci/node@4.1.0
@@ -87,10 +89,10 @@ workflows:
             - test
           <<: *aws_job_template
       - aws-ecs/deploy-service-update:
-            context: uat
-            requires:
-              - aws-ecr/build-and-push-image
-            <<: *service_template
+          context: uat
+          requires:
+            - aws-ecr/build-and-push-image
+          <<: *service_template
 
   production_deploy:
     jobs:
@@ -115,8 +117,7 @@ workflows:
             - test
           <<: *aws_job_template
       - aws-ecs/deploy-service-update:
-            context: production
-            requires:
-              - request-approval
-            <<: *service_template
-
+          context: production
+          requires:
+            - request-approval
+          <<: *service_template
