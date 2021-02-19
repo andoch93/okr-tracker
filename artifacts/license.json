@@ -1,0 +1,345 @@
+{
+  "@babel/runtime@7.12.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@babel/runtime",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@babel/runtime/LICENSE"
+  },
+  "@popperjs/core@2.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/popperjs/popper-core",
+    "publisher": "Federico Zivolo",
+    "email": "federico.zivolo@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@popperjs/core",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@popperjs/core/LICENSE.md"
+  },
+  "@restart/context@2.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/react-restart/context",
+    "publisher": "4Catalyzer",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@restart/context",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@restart/context/LICENSE"
+  },
+  "@restart/hooks@0.3.26": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jquense/react-common-hooks",
+    "publisher": "Jason Quense",
+    "email": "monastic.panic@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@restart/hooks",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@restart/hooks/LICENSE"
+  },
+  "@types/classnames@2.2.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/classnames",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/classnames/LICENSE"
+  },
+  "@types/invariant@2.2.34": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/invariant",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/invariant/LICENSE"
+  },
+  "@types/prop-types@15.7.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/prop-types",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/prop-types/LICENSE"
+  },
+  "@types/react-transition-group@4.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/react-transition-group",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/react-transition-group/LICENSE"
+  },
+  "@types/react@17.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/react",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/react/LICENSE"
+  },
+  "@types/warning@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "publisher": "Chi Vinh Le",
+    "email": "https://github.com/cvle",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/warning",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/@types/warning/README.md"
+  },
+  "classnames@2.2.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/JedWatson/classnames",
+    "publisher": "Jed Watson",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/classnames",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/classnames/LICENSE"
+  },
+  "csstype@3.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/frenic/csstype",
+    "publisher": "Fredrik Nicol",
+    "email": "fredrik.nicol@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/csstype",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/csstype/LICENSE"
+  },
+  "dom-helpers@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/react-bootstrap/dom-helpers",
+    "publisher": "Jason Quense",
+    "email": "monastic.panic@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/dom-helpers",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/dom-helpers/LICENSE"
+  },
+  "history@4.10.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ReactTraining/history",
+    "publisher": "Michael Jackson",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/history",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/history/LICENSE"
+  },
+  "hoist-non-react-statics@3.3.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mridgway/hoist-non-react-statics",
+    "publisher": "Michael Ridgway",
+    "email": "mcridgway@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/hoist-non-react-statics",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/hoist-non-react-statics/LICENSE.md"
+  },
+  "invariant@2.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zertosh/invariant",
+    "publisher": "Andres Suarez",
+    "email": "zertosh@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/invariant",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/invariant/LICENSE"
+  },
+  "isarray@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/isarray",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/isarray",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/isarray/README.md"
+  },
+  "js-tokens@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lydell/js-tokens",
+    "publisher": "Simon Lydell",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/js-tokens",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/js-tokens/LICENSE"
+  },
+  "lodash-es@4.17.20": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/lodash-es",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/lodash-es/LICENSE"
+  },
+  "lodash@4.17.20": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/lodash",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/lodash/LICENSE"
+  },
+  "loose-envify@1.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zertosh/loose-envify",
+    "publisher": "Andres Suarez",
+    "email": "zertosh@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/loose-envify",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/loose-envify/LICENSE"
+  },
+  "mini-create-react-context@0.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/StringEpsilon/mini-create-react-context",
+    "publisher": "StringEpsilon",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/mini-create-react-context",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/mini-create-react-context/LICENSE"
+  },
+  "object-assign@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/object-assign",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/object-assign",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/object-assign/license"
+  },
+  "okr-tracker_client@1.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/andoch93/okr-tracker",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client"
+  },
+  "path-to-regexp@1.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/pillarjs/path-to-regexp",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/path-to-regexp",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/path-to-regexp/LICENSE"
+  },
+  "prop-types-extra@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/react-bootstrap/prop-types-extra",
+    "publisher": "Matthew L Smith",
+    "email": "mtscout6@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/prop-types-extra",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/prop-types-extra/LICENSE"
+  },
+  "prop-types@15.7.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/prop-types",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/prop-types",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/prop-types/LICENSE"
+  },
+  "react-bootstrap@1.4.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/react-bootstrap/react-bootstrap",
+    "publisher": "Stephen J. Collings",
+    "email": "stevoland@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-bootstrap",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-bootstrap/LICENSE"
+  },
+  "react-dom@17.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-dom",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-dom/LICENSE"
+  },
+  "react-fast-compare@3.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/FormidableLabs/react-fast-compare",
+    "publisher": "Chris Bolin",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-fast-compare",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-fast-compare/LICENSE"
+  },
+  "react-helmet@6.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nfl/react-helmet",
+    "publisher": "NFL",
+    "email": "engineers@nfl.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-helmet",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-helmet/LICENSE"
+  },
+  "react-is@16.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-is",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-is/LICENSE"
+  },
+  "react-lifecycles-compat@3.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/reactjs/react-lifecycles-compat",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-lifecycles-compat",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-lifecycles-compat/LICENSE.md"
+  },
+  "react-overlays@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/react-bootstrap/react-overlays",
+    "publisher": "Jason Quense",
+    "email": "monastic.panic@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-overlays",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-overlays/LICENSE"
+  },
+  "react-router-dom@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ReactTraining/react-router",
+    "publisher": "React Training",
+    "email": "hello@reacttraining.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-router-dom",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-router-dom/LICENSE"
+  },
+  "react-router@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ReactTraining/react-router",
+    "publisher": "React Training",
+    "email": "hello@reacttraining.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-router",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-router/LICENSE"
+  },
+  "react-side-effect@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gaearon/react-side-effect",
+    "publisher": "Dan Abramov",
+    "email": "dan.abramov@me.com",
+    "url": "http://github.com/gaearon",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-side-effect",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-side-effect/LICENSE"
+  },
+  "react-transition-group@4.4.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/reactjs/react-transition-group",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-transition-group",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react-transition-group/LICENSE"
+  },
+  "react@17.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/react/LICENSE"
+  },
+  "regenerator-runtime@0.13.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/regenerator-runtime",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/regenerator-runtime/LICENSE"
+  },
+  "resolve-pathname@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mjackson/resolve-pathname",
+    "publisher": "Michael Jackson",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/resolve-pathname",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/resolve-pathname/LICENSE"
+  },
+  "scheduler@0.20.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/scheduler",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/scheduler/LICENSE"
+  },
+  "tiny-invariant@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexreardon/tiny-invariant",
+    "publisher": "Alex Reardon",
+    "email": "alexreardon@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/tiny-invariant",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/tiny-invariant/LICENSE"
+  },
+  "tiny-warning@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexreardon/tiny-warning",
+    "publisher": "Alex Reardon",
+    "email": "alexreardon@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/tiny-warning",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/tiny-warning/LICENSE"
+  },
+  "uncontrollable@7.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jquense/uncontrollable",
+    "publisher": "Jason Quense",
+    "email": "monastic.panic@gmail.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/uncontrollable",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/uncontrollable/LICENSE"
+  },
+  "value-equal@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mjackson/value-equal",
+    "publisher": "Michael Jackson",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/value-equal",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/value-equal/LICENSE"
+  },
+  "warning@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/BerkeleyTrue/warning",
+    "publisher": "Berkeley Martinez",
+    "email": "berkeley@berkeleytrue.com",
+    "url": "http://www.berkeleytrue.com",
+    "path": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/warning",
+    "licenseFile": "/Users/andresochoa/Projects/okr-tracker/okr-tracker_client/node_modules/warning/LICENSE.md"
+  }
+}

@@ -23,7 +23,8 @@
     "outDir": "dist",
     "paths": {
       "@components/*": ["./src/components/*"],
-      "@assets/*": ["./shared/assets/*"]
+      "@assets/*": ["./shared/assets/*"],
+      "@utils/*": ["./src/utils/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,

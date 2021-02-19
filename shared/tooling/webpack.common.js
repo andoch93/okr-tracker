@@ -24,6 +24,7 @@ module.exports = {
     alias: {
       '@components': resolve(__dirname, '../../src/components'),
       '@assets': resolve(__dirname, '../../shared/assets'),
+      '@utils': resolve(__dirname, '../../src/utils'),
     },
   },
   output: {
@@ -37,9 +38,14 @@ module.exports = {
       cacheGroups: {
         vendor: {
           name: 'vendors',
-          test: /[/]node_modules[/]/,
+          test: /[\\/]node_modules[\\/]/,
           chunks: 'all',
         },
+        common: {
+          test: '/[\\/]src[\\/]utils[\\/]/',
+          chunks: 'all',
+          minSize: 0,
+        }
       },
     },
   },
@@ -90,11 +96,11 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: '../shared/assets/images',
+          from: '../src/assets/images',
           to: './assets/images',
         },
         {
-          from: '../shared/assets/icons',
+          from: '../src/assets/icons',
           to: './assets/icons',
         },
         {
@@ -122,7 +128,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: 'index.html',
-      chunks: ['vendors', 'app'],
+      chunks: ['vendors', 'common', 'app'],
       chunksSortMode: 'manual',
     }),
     new ImageminPlugin({

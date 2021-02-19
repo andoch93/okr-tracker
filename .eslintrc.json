@@ -51,7 +51,8 @@
       "alias": {
         "map": [
           ["@components", "./src/components"],
-          ["@assets", "./shared/assets"]
+          ["@assets", "./shared/assets"],
+          ["@utils", "./src/utils"]
         ],
         "extensions": [".ts", ".tsx", ".json"]
       }
