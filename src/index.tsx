@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 
 import { Home } from '@components/Home';
 import { Header } from '@components/Header';
+import { About } from '@components/About';
+import { Feature } from '@components/Feature';
 
 export function App(): React.ReactElement {
   return (
     <div>
       <Header />
       <Home />
+      <About />
+      <Feature />
     </div>
   );
 }

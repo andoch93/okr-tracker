@@ -14,7 +14,7 @@ type Singers = {
   name: string;
   band: string;
   born: number;
-}
+};
 
 const singers: Singers[] = [
   { name: 'Steven Tyler', band: 'Aerosmith', born: 1948 },
@@ -26,10 +26,10 @@ const singers: Singers[] = [
 export function Header(): React.ReactElement {
   return (
     <header>
-      Header
       <Navbar bg="light" expand="lg" className="bg-light justify-content-around">
-        <Navbar.Brand>Light Theme</Navbar.Brand>
-        <Image className={`${classes.circle1} ${classes.circleBase}`} data-testid="image-placeholder"></Image>
+        <Navbar.Brand>
+          Light Theme <Image className={`${classes.circle1} ${classes.circleBase}`} data-testid="image-placeholder"></Image>
+        </Navbar.Brand>
       </Navbar>
     </header>
   );

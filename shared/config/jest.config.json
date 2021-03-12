@@ -4,7 +4,7 @@
   "transform": {
     "^.+\\.tsx?$": "ts-jest"
   },
-  "testMatch": ["<rootDir>/tests/components/**/*.[jt]s?(x)", "<rootDir>/?(*.)+(spec|test).[jt]s?(x)"],
+  "testMatch": ["<rootDir>/src/components/**/?(*.)+(spec|test).[jt]s?(x)"],
   "setupFilesAfterEnv": ["@testing-library/jest-dom", "jest-extended", "@testing-library/react-hooks"],
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx"],
   "coverageDirectory": "<rootDir>/coverage",
