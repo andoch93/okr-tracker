@@ -9,7 +9,7 @@ export function About(): React.ReactElement {
   return (
     <Section>
       <Row className="justify-content-md-center">
-        <Col xs lg="5">
+        <Col xs lg="5" className="text-center">
           <h3>About Us</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ab ad omnis quia cum distinctio, esse culpa quam

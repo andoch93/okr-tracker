@@ -14,9 +14,9 @@ jobs:
           command: |
             npm run test:coverage
       - run:
-          name: 'run audit'
+          name: 'run all inspections'
           command: |
-            npx audit-ci -h -c
+            npm run inspect:all
       - run:
           name: 'run build'
           command: |
@@ -25,6 +25,8 @@ jobs:
           path: ./coverage
       - store_artifacts:
           path: ./bundleAnalyzer
+      - store_artifacts:
+          path: ./license
 
 aws_job_template: &aws_job_template
   account-url: AWS_ECR_ACCOUNT_URL

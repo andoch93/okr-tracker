@@ -1,7 +1,6 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import { Section } from '@components/Layout/Section';
 import classes from '@components/Feature/feature.css';
 
@@ -17,7 +16,7 @@ export function Feature(): React.ReactElement {
             mollitia quos voluptates iste? Rem sequi eius accusantium, excepturi harum ipsam voluptas atque cupiditate!
           </p>
         </Col>
-        <Col xs lg="5" className="text-center">
+        <Col xs lg="5" className="justify-content-md-center">
           <div className={classes.box}></div>
         </Col>
       </Row>

@@ -5,6 +5,7 @@ import { Home } from '@components/Home';
 import { Header } from '@components/Header';
 import { About } from '@components/About';
 import { Feature } from '@components/Feature';
+import { InfoSection } from '@components/InfoSection';
 
 export function App(): React.ReactElement {
   return (
@@ -13,6 +14,7 @@ export function App(): React.ReactElement {
       <Home />
       <About />
       <Feature />
+      <InfoSection />
     </div>
   );
 }
