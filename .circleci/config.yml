@@ -16,7 +16,7 @@ jobs:
       - run:
           name: 'run all inspections'
           command: |
-            npm run inspect:all
+            npm run inspect:all:ci
       - run:
           name: 'run build'
           command: |
