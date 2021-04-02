@@ -112,7 +112,7 @@
     "css-modules-typescript-loader": "^4.0.1",
     "cypress": "^6.8.0",
     "cypress-audit": "^0.3.0",
-    "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-cucumber-preprocessor": "^4.0.3",
     "cypress-select-tests": "^1.7.0",
     "depcheck": "^1.4.0",
     "eslint": "^7.23.0",
