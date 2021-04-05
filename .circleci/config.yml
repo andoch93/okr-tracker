@@ -21,6 +21,9 @@ jobs:
           name: 'run build'
           command: |
             npm run build
+      - run:
+          command: |-
+            echo "this is my bash command"
       - store_artifacts:
           path: ./coverage
       - store_artifacts:
