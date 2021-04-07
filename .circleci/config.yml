@@ -38,7 +38,7 @@ aws_job_template: &aws_job_template
   dockerfile: Dockerfile
   no-output-timeout: 20m
   workspace-root: '.'
-  region: AWS_REGION
+  region: $AWS_REGION
   repo: $AWS_RESOURCE_NAME_PREFIX
   create-repo: true
   path: '.'
